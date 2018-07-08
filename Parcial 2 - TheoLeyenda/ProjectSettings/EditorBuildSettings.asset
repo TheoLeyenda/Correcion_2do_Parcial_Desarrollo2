@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scencs/Pantalla de carga.unity
+    guid: d49b5ddadcacb044da91ba882a3d99a5
+  - enabled: 1
+    path: Assets/Scencs/Menu.unity
+    guid: 933518009e72a094d85d87fd87c9bc2e
+  - enabled: 1
+    path: Assets/Scencs/Nivel 1(Clone).unity
+    guid: 3acd6e05e0de7f24180d10962e04a657
+  - enabled: 1
+    path: Assets/Scencs/Nivel 1.unity
+    guid: cbfe74cc459ed464da356ff90ef38568
+  - enabled: 1
+    path: Assets/Scencs/nivel 2.unity
+    guid: ea9908d36deaef74eb52f5ae277dae72
+  - enabled: 1
+    path: Assets/Scencs/Nivel 3.unity
+    guid: cc239b2d725df8d4e86bc2e9dfc1f090
+  - enabled: 1
+    path: Assets/Scencs/Creditos.unity
+    guid: 27742e1fd55eec2428a3bf22584b999d

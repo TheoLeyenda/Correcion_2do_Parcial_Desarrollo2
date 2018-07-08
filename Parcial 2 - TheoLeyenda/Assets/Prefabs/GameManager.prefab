@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1122705912667932}
+  m_IsPrefabParent: 1
+--- !u!1 &1122705912667932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4836485316721170}
+  - component: {fileID: 114718364173088932}
+  - component: {fileID: 114908522014172502}
+  - component: {fileID: 114671952296114786}
+  - component: {fileID: 114952605861977034}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4836485316721170
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122705912667932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 275.24475, y: 395.8572, z: -1.625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114671952296114786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122705912667932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95827163f4377ef4ab24780548f2c122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumeroNivel: 0
+  pantallaCarga: {fileID: 0}
+  alturaCero: {fileID: 0}
+  textoNivel: {fileID: 0}
+  textoPorcentaje: {fileID: 0}
+  BarraDeCarga: {fileID: 0}
+  cargarNivel: 0
+  carga: 0
+  prenderGameObjects: 0
+--- !u!114 &114718364173088932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122705912667932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aff0c025ec05ce349b91dc2a4c46b901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tipoTextoPuntaje: 0
+  nivelActual: 0
+  asignarNivel: 0
+  cantNiveles: 0
+  HabilitarMovimiento: 0
+  JuegoTerminado: 0
+  EnCreditos: 0
+  JuegoEmpezado: 0
+  camara: {fileID: 0}
+  jugador: {fileID: 0}
+  alturaCero: {fileID: 0}
+  pantallaCarga: {fileID: 0}
+  PantallaAterrizaje: {fileID: 0}
+  botonPausa: {fileID: 0}
+  UI_Juego: {fileID: 0}
+  PantallaGameOver: {fileID: 0}
+  pantallaAterrizaje: {fileID: 0}
+  Xjugador: 0
+  Yjugador: 0
+  Zjugador: 0
+--- !u!114 &114908522014172502
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122705912667932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2966cb6909f3b034f977f8bd227201b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114952605861977034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122705912667932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51502ea088de1c948a501d9a97e79085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: 0
+  segundos: 0
+  minutos: 0
+  gasolinaJugador: 0
+  altitudJugador: 0
+  velocidadHorizontalJugador: 0
+  velocidadVerticalJugador: 0
+  buenAterrizaje: 0
+  TextoTiempo: {fileID: 0}
+  TextoVelocidadVerticalJugador: {fileID: 0}
+  TextoVelocidadHorizontalJugador: {fileID: 0}
+  TextoGasolinaJugador: {fileID: 0}
+  textoAltitudJugador: {fileID: 0}
+  TextoPuntos: {fileID: 0}
